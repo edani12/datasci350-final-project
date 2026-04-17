@@ -19,15 +19,34 @@ trajectories imply for future healthcare services demand?
 ```
 datasci350-final-project/
 ├── README.md
-├── data/               # Raw and processed datasets
-├── documentation/      # Codebook and ER diagram
-├── figures/            # All plots and tables
-├── scripts/            # SQL and Python analysis scripts
-│   ├── 01_download_data.py
-│   ├── 02_clean_data.sql
-│   ├── 03_descriptive_stats.sql
-│   └── 04_analysis.py
-└── report.qmd          # Quarto report (main document)
+├── report.qmd              # Quarto source document
+├── report.html             # Rendered HTML report
+├── report.pdf              # Rendered PDF report
+├── references.bib          # Bibliography
+├── requirements.txt        # Python dependencies
+├── data/                   
+│   ├── combined_indicators.csv
+│   ├── life_expectancy.csv
+│   ├── under5_mortality.csv
+│   ├── adolescent_fertility.csv
+│   └── healthcare_demographics.db
+├── documentation/          
+│   ├── codebook.md
+│   ├── er_diagram.png
+│   └── er_diagram.py
+├── figures/                
+│   ├── 01_life_expectancy.png
+│   ├── 02_under5_mortality.png
+│   ├── 03_adolescent_fertility.png
+│   ├── 04_improvement.png
+│   ├── 05_scorecard_heatmap.png
+│   ├── 06_group_trends.png
+│   └── 07_scatter_2022.png
+└── scripts/                
+    ├── 01_download_data.py
+    ├── 02_clean_data.sql
+    ├── 03_descriptive_stats.sql
+    └── 04_analysis.py
 ```
 
 ## How to Reproduce
