@@ -1,0 +1,265 @@
+country_code,year,adolescent_fertility,country_name
+CHN,1990,23.214,China
+CHN,1991,18.812,China
+CHN,1992,16.081,China
+CHN,1993,13.469,China
+CHN,1994,8.754,China
+CHN,1995,8.652,China
+CHN,1996,7.318,China
+CHN,1997,6.427,China
+CHN,1998,4.673,China
+CHN,1999,6.163,China
+CHN,2000,6.444,China
+CHN,2001,6.104,China
+CHN,2002,6.122,China
+CHN,2003,6.459,China
+CHN,2004,5.638,China
+CHN,2005,6.645,China
+CHN,2006,8.5,China
+CHN,2007,9.141,China
+CHN,2008,11.026,China
+CHN,2009,11.994,China
+CHN,2010,12.158,China
+CHN,2011,11.801,China
+CHN,2012,12.534,China
+CHN,2013,11.976,China
+CHN,2014,12.049,China
+CHN,2015,10.887,China
+CHN,2016,10.747,China
+CHN,2017,10.236,China
+CHN,2018,8.691,China
+CHN,2019,8.277,China
+CHN,2020,6.737,China
+CHN,2021,5.996,China
+CHN,2022,5.463,China
+IDN,1990,74.849,Indonesia
+IDN,1991,72.293,Indonesia
+IDN,1992,68.456,Indonesia
+IDN,1993,65.434,Indonesia
+IDN,1994,64.403,Indonesia
+IDN,1995,63.923,Indonesia
+IDN,1996,61.498,Indonesia
+IDN,1997,59.248,Indonesia
+IDN,1998,56.663,Indonesia
+IDN,1999,54.825,Indonesia
+IDN,2000,53.853,Indonesia
+IDN,2001,53.016,Indonesia
+IDN,2002,51.763,Indonesia
+IDN,2003,50.413,Indonesia
+IDN,2004,48.211,Indonesia
+IDN,2005,48.096,Indonesia
+IDN,2006,47.766,Indonesia
+IDN,2007,47.667,Indonesia
+IDN,2008,46.292,Indonesia
+IDN,2009,45.594,Indonesia
+IDN,2010,45.68,Indonesia
+IDN,2011,45.593,Indonesia
+IDN,2012,44.616,Indonesia
+IDN,2013,42.675,Indonesia
+IDN,2014,40.126,Indonesia
+IDN,2015,37.861,Indonesia
+IDN,2016,35.356,Indonesia
+IDN,2017,32.792,Indonesia
+IDN,2018,30.648,Indonesia
+IDN,2019,28.876,Indonesia
+IDN,2020,27.176,Indonesia
+IDN,2021,26.824,Indonesia
+IDN,2022,26.581,Indonesia
+JPN,1990,3.556,Japan
+JPN,1991,3.866,Japan
+JPN,1992,4.07,Japan
+JPN,1993,4.101,Japan
+JPN,1994,4.146,Japan
+JPN,1995,4.049,Japan
+JPN,1996,4.12,Japan
+JPN,1997,4.459,Japan
+JPN,1998,4.802,Japan
+JPN,1999,5.08,Japan
+JPN,2000,5.532,Japan
+JPN,2001,5.972,Japan
+JPN,2002,6.225,Japan
+JPN,2003,5.982,Japan
+JPN,2004,5.775,Japan
+JPN,2005,5.367,Japan
+JPN,2006,5.246,Japan
+JPN,2007,5.145,Japan
+JPN,2008,5.168,Japan
+JPN,2009,4.914,Japan
+JPN,2010,4.603,Japan
+JPN,2011,4.477,Japan
+JPN,2012,4.332,Japan
+JPN,2013,4.361,Japan
+JPN,2014,4.325,Japan
+JPN,2015,4.04,Japan
+JPN,2016,3.75,Japan
+JPN,2017,3.404,Japan
+JPN,2018,3.076,Japan
+JPN,2019,2.772,Japan
+JPN,2020,2.503,Japan
+JPN,2021,2.088,Japan
+JPN,2022,1.821,Japan
+KOR,1990,4.274,South Korea
+KOR,1991,4.293,South Korea
+KOR,1992,4.483,South Korea
+KOR,1993,4.274,South Korea
+KOR,1994,3.877,South Korea
+KOR,1995,3.562,South Korea
+KOR,1996,3.31,South Korea
+KOR,1997,3.099,South Korea
+KOR,1998,2.917,South Korea
+KOR,1999,2.762,South Korea
+KOR,2000,2.672,South Korea
+KOR,2001,2.533,South Korea
+KOR,2002,2.719,South Korea
+KOR,2003,2.542,South Korea
+KOR,2004,2.346,South Korea
+KOR,2005,2.187,South Korea
+KOR,2006,2.178,South Korea
+KOR,2007,2.113,South Korea
+KOR,2008,1.725,South Korea
+KOR,2009,1.69,South Korea
+KOR,2010,1.764,South Korea
+KOR,2011,1.853,South Korea
+KOR,2012,1.743,South Korea
+KOR,2013,1.739,South Korea
+KOR,2014,1.797,South Korea
+KOR,2015,1.638,South Korea
+KOR,2016,1.478,South Korea
+KOR,2017,1.126,South Korea
+KOR,2018,1.179,South Korea
+KOR,2019,0.925,South Korea
+KOR,2020,0.799,South Korea
+KOR,2021,0.539,South Korea
+KOR,2022,0.651,South Korea
+SGP,1990,7.367,Singapore
+SGP,1991,7.415,Singapore
+SGP,1992,7.286,Singapore
+SGP,1993,7.231,Singapore
+SGP,1994,6.64,Singapore
+SGP,1995,6.182,Singapore
+SGP,1996,6.168,Singapore
+SGP,1997,6.263,Singapore
+SGP,1998,6.55,Singapore
+SGP,1999,7.094,Singapore
+SGP,2000,7.808,Singapore
+SGP,2001,7.234,Singapore
+SGP,2002,7.076,Singapore
+SGP,2003,6.108,Singapore
+SGP,2004,5.872,Singapore
+SGP,2005,5.938,Singapore
+SGP,2006,5.645,Singapore
+SGP,2007,5.417,Singapore
+SGP,2008,5.18,Singapore
+SGP,2009,4.561,Singapore
+SGP,2010,4.054,Singapore
+SGP,2011,3.956,Singapore
+SGP,2012,3.792,Singapore
+SGP,2013,3.203,Singapore
+SGP,2014,2.995,Singapore
+SGP,2015,2.568,Singapore
+SGP,2016,2.405,Singapore
+SGP,2017,2.328,Singapore
+SGP,2018,2.359,Singapore
+SGP,2019,2.303,Singapore
+SGP,2020,2.276,Singapore
+SGP,2021,2.16,Singapore
+SGP,2022,2.17,Singapore
+THA,1990,50.009,Thailand
+THA,1991,51.134,Thailand
+THA,1992,51.407,Thailand
+THA,1993,51.656,Thailand
+THA,1994,51.264,Thailand
+THA,1995,48.135,Thailand
+THA,1996,46.386,Thailand
+THA,1997,43.678,Thailand
+THA,1998,44.669,Thailand
+THA,1999,42.062,Thailand
+THA,2000,39.273,Thailand
+THA,2001,40.092,Thailand
+THA,2002,42.769,Thailand
+THA,2003,45.681,Thailand
+THA,2004,48.982,Thailand
+THA,2005,48.3,Thailand
+THA,2006,51.23,Thailand
+THA,2007,52.083,Thailand
+THA,2008,52.29,Thailand
+THA,2009,52.655,Thailand
+THA,2010,52.649,Thailand
+THA,2011,54.228,Thailand
+THA,2012,54.005,Thailand
+THA,2013,52.618,Thailand
+THA,2014,50.791,Thailand
+THA,2015,48.671,Thailand
+THA,2016,44.497,Thailand
+THA,2017,39.181,Thailand
+THA,2018,34.703,Thailand
+THA,2019,31.21,Thailand
+THA,2020,29.613,Thailand
+THA,2021,27.475,Thailand
+THA,2022,26.254,Thailand
+USA,1990,61.513,United States
+USA,1991,61.656,United States
+USA,1992,59.872,United States
+USA,1993,58.309,United States
+USA,1994,56.951,United States
+USA,1995,54.794,United States
+USA,1996,52.583,United States
+USA,1997,50.691,United States
+USA,1998,49.861,United States
+USA,1999,48.664,United States
+USA,2000,47.501,United States
+USA,2001,44.958,United States
+USA,2002,42.602,United States
+USA,2003,40.987,United States
+USA,2004,40.173,United States
+USA,2005,39.473,United States
+USA,2006,40.349,United States
+USA,2007,40.808,United States
+USA,2008,40.059,United States
+USA,2009,38.137,United States
+USA,2010,34.856,United States
+USA,2011,31.723,United States
+USA,2012,29.387,United States
+USA,2013,26.528,United States
+USA,2014,24.192,United States
+USA,2015,22.031,United States
+USA,2016,20.08,United States
+USA,2017,18.491,United States
+USA,2018,17.164,United States
+USA,2019,16.202,United States
+USA,2020,14.719,United States
+USA,2021,13.724,United States
+USA,2022,13.628,United States
+VNM,1990,45.406,Vietnam
+VNM,1991,47.802,Vietnam
+VNM,1992,48.525,Vietnam
+VNM,1993,47.493,Vietnam
+VNM,1994,46.878,Vietnam
+VNM,1995,45.586,Vietnam
+VNM,1996,41.381,Vietnam
+VNM,1997,38.13,Vietnam
+VNM,1998,34.221,Vietnam
+VNM,1999,31.391,Vietnam
+VNM,2000,29.936,Vietnam
+VNM,2001,29.276,Vietnam
+VNM,2002,28.956,Vietnam
+VNM,2003,28.261,Vietnam
+VNM,2004,28.162,Vietnam
+VNM,2005,26.741,Vietnam
+VNM,2006,27.258,Vietnam
+VNM,2007,28.804,Vietnam
+VNM,2008,30.811,Vietnam
+VNM,2009,33.107,Vietnam
+VNM,2010,35.23,Vietnam
+VNM,2011,36.934,Vietnam
+VNM,2012,39.079,Vietnam
+VNM,2013,40.739,Vietnam
+VNM,2014,42.212,Vietnam
+VNM,2015,41.676,Vietnam
+VNM,2016,39.181,Vietnam
+VNM,2017,37.703,Vietnam
+VNM,2018,35.417,Vietnam
+VNM,2019,35.258,Vietnam
+VNM,2020,35.03,Vietnam
+VNM,2021,34.666,Vietnam
+VNM,2022,34.626,Vietnam
