@@ -3,10 +3,11 @@
 **DATASCI 350 - Data Science Computing | Final Project**
 
 ## Authors
-- [Your Name] — [Emory ID]
-- [Teammate 2] — [Emory ID]
-- [Teammate 3] — [Emory ID]
+- Eshaan Dani — 2549526
+- Nikhil Makker — [Emory ID]
+- Connor Lee — [Emory ID]
 - [Teammate 4] — [Emory ID]
+- [Teammate 5] — [Emory ID]
 
 ## Research Question
 How have life expectancy, child mortality, and fertility trends diverged 

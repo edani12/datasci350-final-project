@@ -1,0 +1,265 @@
+country_code,country_name,year,life_expectancy,under5_mortality,adolescent_fertility,demographic_group,decade
+CHN,China,1990,68.155,53.6,23.214,Rapidly Aging,1990s
+CHN,China,1991,68.61,53.0,18.812,Rapidly Aging,1990s
+CHN,China,1992,69.059,52.1,16.081,Rapidly Aging,1990s
+CHN,China,1993,69.492,50.8,13.469,Rapidly Aging,1990s
+CHN,China,1994,69.835,49.2,8.754,Rapidly Aging,1990s
+CHN,China,1995,70.363,47.4,8.652,Rapidly Aging,1990s
+CHN,China,1996,70.823,45.5,7.318,Rapidly Aging,1990s
+CHN,China,1997,71.227,43.5,6.427,Rapidly Aging,1990s
+CHN,China,1998,71.601,41.4,4.673,Rapidly Aging,1990s
+CHN,China,1999,71.952,39.1,6.163,Rapidly Aging,1990s
+CHN,China,2000,72.288,36.6,6.444,Rapidly Aging,2000s
+CHN,China,2001,72.675,34.1,6.104,Rapidly Aging,2000s
+CHN,China,2002,73.034,31.4,6.122,Rapidly Aging,2000s
+CHN,China,2003,73.385,28.8,6.459,Rapidly Aging,2000s
+CHN,China,2004,73.727,26.3,5.638,Rapidly Aging,2000s
+CHN,China,2005,74.085,24.0,6.645,Rapidly Aging,2000s
+CHN,China,2006,74.404,21.9,8.5,Rapidly Aging,2000s
+CHN,China,2007,74.789,20.1,9.141,Rapidly Aging,2000s
+CHN,China,2008,74.833,18.5,11.026,Rapidly Aging,2000s
+CHN,China,2009,75.317,17.1,11.994,Rapidly Aging,2000s
+CHN,China,2010,75.668,15.7,12.158,Rapidly Aging,2010s
+CHN,China,2011,75.889,14.6,11.801,Rapidly Aging,2010s
+CHN,China,2012,76.2,13.5,12.534,Rapidly Aging,2010s
+CHN,China,2013,76.452,12.5,11.976,Rapidly Aging,2010s
+CHN,China,2014,76.714,11.6,12.049,Rapidly Aging,2010s
+CHN,China,2015,76.975,10.7,10.887,Rapidly Aging,2010s
+CHN,China,2016,77.214,10.0,10.747,Rapidly Aging,2010s
+CHN,China,2017,77.235,9.3,10.236,Rapidly Aging,2010s
+CHN,China,2018,77.709,8.6,8.691,Rapidly Aging,2010s
+CHN,China,2019,77.94,8.0,8.277,Rapidly Aging,2010s
+CHN,China,2020,78.019,7.5,6.737,Rapidly Aging,2020s
+CHN,China,2021,78.117,7.0,5.996,Rapidly Aging,2020s
+CHN,China,2022,78.202,6.6,5.463,Rapidly Aging,2020s
+IDN,Indonesia,1990,63.249,83.2,74.849,Young Economy,1990s
+IDN,Indonesia,1991,63.703,79.4,72.293,Young Economy,1990s
+IDN,Indonesia,1992,64.182,75.8,68.456,Young Economy,1990s
+IDN,Indonesia,1993,64.851,72.2,65.434,Young Economy,1990s
+IDN,Indonesia,1994,65.041,68.8,64.403,Young Economy,1990s
+IDN,Indonesia,1995,65.263,65.5,63.923,Young Economy,1990s
+IDN,Indonesia,1996,65.465,62.4,61.498,Young Economy,1990s
+IDN,Indonesia,1997,65.774,59.4,59.248,Young Economy,1990s
+IDN,Indonesia,1998,65.942,56.6,56.663,Young Economy,1990s
+IDN,Indonesia,1999,66.001,53.9,54.825,Young Economy,1990s
+IDN,Indonesia,2000,66.292,51.4,53.853,Young Economy,2000s
+IDN,Indonesia,2001,66.583,49.0,53.016,Young Economy,2000s
+IDN,Indonesia,2002,66.954,46.7,51.763,Young Economy,2000s
+IDN,Indonesia,2003,67.134,44.6,50.413,Young Economy,2000s
+IDN,Indonesia,2004,65.521,48.6,48.211,Young Economy,2000s
+IDN,Indonesia,2005,67.531,40.7,48.096,Young Economy,2000s
+IDN,Indonesia,2006,67.664,38.9,47.766,Young Economy,2000s
+IDN,Indonesia,2007,67.914,37.2,47.667,Young Economy,2000s
+IDN,Indonesia,2008,68.085,35.6,46.292,Young Economy,2000s
+IDN,Indonesia,2009,68.267,34.1,45.594,Young Economy,2000s
+IDN,Indonesia,2010,68.364,32.6,45.68,Young Economy,2010s
+IDN,Indonesia,2011,68.629,31.2,45.593,Young Economy,2010s
+IDN,Indonesia,2012,68.862,29.9,44.616,Young Economy,2010s
+IDN,Indonesia,2013,69.064,28.6,42.675,Young Economy,2010s
+IDN,Indonesia,2014,69.292,27.3,40.126,Young Economy,2010s
+IDN,Indonesia,2015,69.52,26.1,37.861,Young Economy,2010s
+IDN,Indonesia,2016,69.733,25.0,35.356,Young Economy,2010s
+IDN,Indonesia,2017,69.953,23.8,32.792,Young Economy,2010s
+IDN,Indonesia,2018,70.08,22.8,30.648,Young Economy,2010s
+IDN,Indonesia,2019,70.349,21.8,28.876,Young Economy,2010s
+IDN,Indonesia,2020,68.817,20.8,27.176,Young Economy,2020s
+IDN,Indonesia,2021,67.452,19.9,26.824,Young Economy,2020s
+IDN,Indonesia,2022,70.925,19.1,26.581,Young Economy,2020s
+JPN,Japan,1990,78.8370731707317,6.3,3.556,Aged Economy,1990s
+JPN,Japan,1991,79.0368292682927,6.2,3.866,Aged Economy,1990s
+JPN,Japan,1992,79.080243902439,6.1,4.07,Aged Economy,1990s
+JPN,Japan,1993,79.3036585365854,6.0,4.101,Aged Economy,1990s
+JPN,Japan,1994,79.6968292682927,5.9,4.146,Aged Economy,1990s
+JPN,Japan,1995,79.5360975609756,5.7,4.049,Aged Economy,1990s
+JPN,Japan,1996,80.219756097561,5.5,4.12,Aged Economy,1990s
+JPN,Japan,1997,80.4241463414634,5.2,4.459,Aged Economy,1990s
+JPN,Japan,1998,80.5014634146342,5.0,4.802,Aged Economy,1990s
+JPN,Japan,1999,80.4609756097561,4.7,5.08,Aged Economy,1990s
+JPN,Japan,2000,81.0760975609756,4.5,5.532,Aged Economy,2000s
+JPN,Japan,2001,81.4163414634146,4.3,5.972,Aged Economy,2000s
+JPN,Japan,2002,81.6907317073171,4.1,6.225,Aged Economy,2000s
+JPN,Japan,2003,81.76,4.0,5.982,Aged Economy,2000s
+JPN,Japan,2004,82.030243902439,3.9,5.775,Aged Economy,2000s
+JPN,Japan,2005,81.9551219512195,3.7,5.367,Aged Economy,2000s
+JPN,Japan,2006,82.3219512195122,3.6,5.246,Aged Economy,2000s
+JPN,Japan,2007,82.5070731707317,3.5,5.145,Aged Economy,2000s
+JPN,Japan,2008,82.5875609756098,3.4,5.168,Aged Economy,2000s
+JPN,Japan,2009,82.9314634146342,3.4,4.914,Aged Economy,2000s
+JPN,Japan,2010,82.8426829268293,3.3,4.603,Aged Economy,2010s
+JPN,Japan,2011,82.5912195121951,3.3,4.477,Aged Economy,2010s
+JPN,Japan,2012,83.0960975609756,3.1,4.332,Aged Economy,2010s
+JPN,Japan,2013,83.3319512195122,3.0,4.361,Aged Economy,2010s
+JPN,Japan,2014,83.5878048780488,2.9,4.325,Aged Economy,2010s
+JPN,Japan,2015,83.7939024390244,2.8,4.04,Aged Economy,2010s
+JPN,Japan,2016,83.9848780487805,2.7,3.75,Aged Economy,2010s
+JPN,Japan,2017,84.099756097561,2.6,3.404,Aged Economy,2010s
+JPN,Japan,2018,84.2109756097561,2.5,3.076,Aged Economy,2010s
+JPN,Japan,2019,84.3563414634146,2.5,2.772,Aged Economy,2010s
+JPN,Japan,2020,84.56,2.4,2.503,Aged Economy,2020s
+JPN,Japan,2021,84.4456097560976,2.4,2.088,Aged Economy,2020s
+JPN,Japan,2022,83.9963414634146,2.4,1.821,Aged Economy,2020s
+KOR,South Korea,1990,71.5975609756098,15.7,4.274,Rapidly Aging,1990s
+KOR,South Korea,1991,72.0463414634146,14.5,4.293,Rapidly Aging,1990s
+KOR,South Korea,1992,72.4975609756098,13.3,4.483,Rapidly Aging,1990s
+KOR,South Korea,1993,72.9975609756098,12.3,4.274,Rapidly Aging,1990s
+KOR,South Korea,1994,73.3975609756098,11.4,3.877,Rapidly Aging,1990s
+KOR,South Korea,1995,73.7,10.5,3.562,Rapidly Aging,1990s
+KOR,South Korea,1996,74.1512195121951,9.8,3.31,Rapidly Aging,1990s
+KOR,South Korea,1997,74.6024390243903,9.1,3.099,Rapidly Aging,1990s
+KOR,South Korea,1998,75.0048780487805,8.5,2.917,Rapidly Aging,1990s
+KOR,South Korea,1999,75.409756097561,8.0,2.762,Rapidly Aging,1990s
+KOR,South Korea,2000,75.909756097561,7.6,2.672,Rapidly Aging,2000s
+KOR,South Korea,2001,76.4121951219512,7.2,2.533,Rapidly Aging,2000s
+KOR,South Korea,2002,76.7658536585366,6.8,2.719,Rapidly Aging,2000s
+KOR,South Korea,2003,77.2146341463415,6.4,2.542,Rapidly Aging,2000s
+KOR,South Korea,2004,77.6658536585366,6.0,2.346,Rapidly Aging,2000s
+KOR,South Korea,2005,78.1682926829268,5.6,2.187,Rapidly Aging,2000s
+KOR,South Korea,2006,78.6682926829268,5.2,2.178,Rapidly Aging,2000s
+KOR,South Korea,2007,79.119512195122,4.8,2.113,Rapidly Aging,2000s
+KOR,South Korea,2008,79.5170731707317,4.5,1.725,Rapidly Aging,2000s
+KOR,South Korea,2009,79.9682926829268,4.3,1.69,Rapidly Aging,2000s
+KOR,South Korea,2010,80.1170731707317,4.1,1.764,Rapidly Aging,2010s
+KOR,South Korea,2011,80.5682926829269,4.0,1.853,Rapidly Aging,2010s
+KOR,South Korea,2012,80.819512195122,3.8,1.743,Rapidly Aging,2010s
+KOR,South Korea,2013,81.2707317073171,3.7,1.739,Rapidly Aging,2010s
+KOR,South Korea,2014,81.7219512195122,3.6,1.797,Rapidly Aging,2010s
+KOR,South Korea,2015,82.0243902439024,3.5,1.638,Rapidly Aging,2010s
+KOR,South Korea,2016,82.2756097560976,3.4,1.478,Rapidly Aging,2010s
+KOR,South Korea,2017,82.6268292682927,3.3,1.126,Rapidly Aging,2010s
+KOR,South Korea,2018,82.6268292682927,3.2,1.179,Rapidly Aging,2010s
+KOR,South Korea,2019,83.2268292682927,3.1,0.925,Rapidly Aging,2010s
+KOR,South Korea,2020,83.4268292682927,3.1,0.799,Rapidly Aging,2020s
+KOR,South Korea,2021,83.5268292682927,3.0,0.539,Rapidly Aging,2020s
+KOR,South Korea,2022,82.6804878048781,2.9,0.651,Rapidly Aging,2020s
+SGP,Singapore,1990,75.2951219512195,7.7,7.367,Rapidly Aging,1990s
+SGP,Singapore,1991,75.6463414634146,6.9,7.415,Rapidly Aging,1990s
+SGP,Singapore,1992,75.9463414634146,6.3,7.286,Rapidly Aging,1990s
+SGP,Singapore,1993,76.0463414634146,5.8,7.231,Rapidly Aging,1990s
+SGP,Singapore,1994,76.1975609756098,5.4,6.64,Rapidly Aging,1990s
+SGP,Singapore,1995,76.2951219512195,5.1,6.182,Rapidly Aging,1990s
+SGP,Singapore,1996,76.5951219512195,4.8,6.168,Rapidly Aging,1990s
+SGP,Singapore,1997,76.8975609756097,4.6,6.263,Rapidly Aging,1990s
+SGP,Singapore,1998,77.3,4.3,6.55,Rapidly Aging,1990s
+SGP,Singapore,1999,77.5512195121951,4.1,7.094,Rapidly Aging,1990s
+SGP,Singapore,2000,77.9512195121951,3.9,7.808,Rapidly Aging,2000s
+SGP,Singapore,2001,78.2512195121951,3.6,7.234,Rapidly Aging,2000s
+SGP,Singapore,2002,78.5512195121951,3.4,7.076,Rapidly Aging,2000s
+SGP,Singapore,2003,79.0390243902439,3.2,6.108,Rapidly Aging,2000s
+SGP,Singapore,2004,79.490243902439,3.1,5.872,Rapidly Aging,2000s
+SGP,Singapore,2005,79.990243902439,3.0,5.938,Rapidly Aging,2000s
+SGP,Singapore,2006,80.1414634146341,2.9,5.645,Rapidly Aging,2000s
+SGP,Singapore,2007,80.4414634146342,2.9,5.417,Rapidly Aging,2000s
+SGP,Singapore,2008,80.790243902439,2.8,5.18,Rapidly Aging,2000s
+SGP,Singapore,2009,81.2414634146342,2.8,4.561,Rapidly Aging,2000s
+SGP,Singapore,2010,81.5414634146342,2.8,4.054,Rapidly Aging,2010s
+SGP,Singapore,2011,81.7439024390244,2.8,3.956,Rapidly Aging,2010s
+SGP,Singapore,2012,81.9951219512195,2.8,3.792,Rapidly Aging,2010s
+SGP,Singapore,2013,82.2463414634147,2.8,3.203,Rapidly Aging,2010s
+SGP,Singapore,2014,82.4951219512195,2.7,2.995,Rapidly Aging,2010s
+SGP,Singapore,2015,82.7439024390244,2.7,2.568,Rapidly Aging,2010s
+SGP,Singapore,2016,82.8463414634146,2.6,2.405,Rapidly Aging,2010s
+SGP,Singapore,2017,83.0951219512195,2.6,2.328,Rapidly Aging,2010s
+SGP,Singapore,2018,83.2975609756098,2.5,2.359,Rapidly Aging,2010s
+SGP,Singapore,2019,83.5951219512195,2.5,2.303,Rapidly Aging,2010s
+SGP,Singapore,2020,83.5439024390244,2.4,2.276,Rapidly Aging,2020s
+SGP,Singapore,2021,83.0926829268293,2.4,2.16,Rapidly Aging,2020s
+SGP,Singapore,2022,82.8951219512195,2.5,2.17,Rapidly Aging,2020s
+THA,Thailand,1990,68.924,36.9,50.009,Transitioning,1990s
+THA,Thailand,1991,69.132,34.8,51.134,Transitioning,1990s
+THA,Thailand,1992,69.353,32.9,51.407,Transitioning,1990s
+THA,Thailand,1993,69.568,31.1,51.656,Transitioning,1990s
+THA,Thailand,1994,69.661,29.5,51.264,Transitioning,1990s
+THA,Thailand,1995,69.757,28.0,48.135,Transitioning,1990s
+THA,Thailand,1996,69.94,26.6,46.386,Transitioning,1990s
+THA,Thailand,1997,70.362,25.2,43.678,Transitioning,1990s
+THA,Thailand,1998,70.703,24.0,44.669,Transitioning,1990s
+THA,Thailand,1999,70.979,22.8,42.062,Transitioning,1990s
+THA,Thailand,2000,71.205,21.7,39.273,Transitioning,2000s
+THA,Thailand,2001,71.52,20.7,40.092,Transitioning,2000s
+THA,Thailand,2002,71.775,19.7,42.769,Transitioning,2000s
+THA,Thailand,2003,72.101,18.9,45.681,Transitioning,2000s
+THA,Thailand,2004,72.1,18.0,48.982,Transitioning,2000s
+THA,Thailand,2005,72.894,17.2,48.3,Transitioning,2000s
+THA,Thailand,2006,73.341,16.5,51.23,Transitioning,2000s
+THA,Thailand,2007,73.779,15.9,52.083,Transitioning,2000s
+THA,Thailand,2008,74.221,15.2,52.29,Transitioning,2000s
+THA,Thailand,2009,74.669,14.7,52.655,Transitioning,2000s
+THA,Thailand,2010,75.012,14.1,52.649,Transitioning,2010s
+THA,Thailand,2011,75.302,13.6,54.228,Transitioning,2010s
+THA,Thailand,2012,75.59,13.1,54.005,Transitioning,2010s
+THA,Thailand,2013,75.96,12.7,52.618,Transitioning,2010s
+THA,Thailand,2014,76.279,12.3,50.791,Transitioning,2010s
+THA,Thailand,2015,76.563,11.9,48.671,Transitioning,2010s
+THA,Thailand,2016,76.769,11.5,44.497,Transitioning,2010s
+THA,Thailand,2017,76.989,11.1,39.181,Transitioning,2010s
+THA,Thailand,2018,77.19,10.8,34.703,Transitioning,2010s
+THA,Thailand,2019,77.197,10.4,31.21,Transitioning,2010s
+THA,Thailand,2020,77.331,10.1,29.613,Transitioning,2020s
+THA,Thailand,2021,77.606,9.8,27.475,Transitioning,2020s
+THA,Thailand,2022,75.291,9.5,26.254,Transitioning,2020s
+USA,United States,1990,75.2146341463415,11.2,61.513,Benchmark,1990s
+USA,United States,1991,75.3658536585366,10.9,61.656,Benchmark,1990s
+USA,United States,1992,75.6170731707317,10.5,59.872,Benchmark,1990s
+USA,United States,1993,75.419512195122,10.1,58.309,Benchmark,1990s
+USA,United States,1994,75.619512195122,9.8,56.951,Benchmark,1990s
+USA,United States,1995,75.6219512195122,9.5,54.794,Benchmark,1990s
+USA,United States,1996,76.0268292682927,9.2,52.583,Benchmark,1990s
+USA,United States,1997,76.4292682926829,8.9,50.691,Benchmark,1990s
+USA,United States,1998,76.5804878048781,8.7,49.861,Benchmark,1990s
+USA,United States,1999,76.5829268292683,8.6,48.664,Benchmark,1990s
+USA,United States,2000,76.6365853658537,8.4,47.501,Benchmark,2000s
+USA,United States,2001,76.8365853658537,8.3,44.958,Benchmark,2000s
+USA,United States,2002,76.9365853658537,8.2,42.602,Benchmark,2000s
+USA,United States,2003,77.0365853658537,8.1,40.987,Benchmark,2000s
+USA,United States,2004,77.4878048780488,8.1,40.173,Benchmark,2000s
+USA,United States,2005,77.4878048780488,8.0,39.473,Benchmark,2000s
+USA,United States,2006,77.6878048780488,7.9,40.349,Benchmark,2000s
+USA,United States,2007,77.9878048780488,7.7,40.808,Benchmark,2000s
+USA,United States,2008,78.0390243902439,7.6,40.059,Benchmark,2000s
+USA,United States,2009,78.390243902439,7.5,38.137,Benchmark,2000s
+USA,United States,2010,78.5414634146342,7.3,34.856,Benchmark,2010s
+USA,United States,2011,78.6414634146341,7.2,31.723,Benchmark,2010s
+USA,United States,2012,78.7414634146342,7.0,29.387,Benchmark,2010s
+USA,United States,2013,78.7414634146342,6.9,26.528,Benchmark,2010s
+USA,United States,2014,78.8414634146341,6.8,24.192,Benchmark,2010s
+USA,United States,2015,78.690243902439,6.8,22.031,Benchmark,2010s
+USA,United States,2016,78.5390243902439,6.7,20.08,Benchmark,2010s
+USA,United States,2017,78.5390243902439,6.6,18.491,Benchmark,2010s
+USA,United States,2018,78.6390243902439,6.5,17.164,Benchmark,2010s
+USA,United States,2019,78.7878048780488,6.5,16.202,Benchmark,2010s
+USA,United States,2020,76.9804878048781,6.5,14.719,Benchmark,2020s
+USA,United States,2021,76.3292682926829,6.5,13.724,Benchmark,2020s
+USA,United States,2022,77.4341463414634,6.5,13.628,Benchmark,2020s
+VNM,Vietnam,1990,69.027,51.6,45.406,Transitioning,1990s
+VNM,Vietnam,1991,69.303,49.1,47.802,Transitioning,1990s
+VNM,Vietnam,1992,69.62,46.6,48.525,Transitioning,1990s
+VNM,Vietnam,1993,69.957,44.1,47.493,Transitioning,1990s
+VNM,Vietnam,1994,70.379,41.7,46.878,Transitioning,1990s
+VNM,Vietnam,1995,70.871,39.4,45.586,Transitioning,1990s
+VNM,Vietnam,1996,71.296,37.2,41.381,Transitioning,1990s
+VNM,Vietnam,1997,71.67,35.2,38.13,Transitioning,1990s
+VNM,Vietnam,1998,72.283,33.4,34.221,Transitioning,1990s
+VNM,Vietnam,1999,72.575,31.8,31.391,Transitioning,1990s
+VNM,Vietnam,2000,72.746,30.3,29.936,Transitioning,2000s
+VNM,Vietnam,2001,72.984,29.0,29.276,Transitioning,2000s
+VNM,Vietnam,2002,73.138,27.9,28.956,Transitioning,2000s
+VNM,Vietnam,2003,73.236,26.9,28.261,Transitioning,2000s
+VNM,Vietnam,2004,73.062,26.1,28.162,Transitioning,2000s
+VNM,Vietnam,2005,73.198,25.4,26.741,Transitioning,2000s
+VNM,Vietnam,2006,73.293,24.8,27.258,Transitioning,2000s
+VNM,Vietnam,2007,73.385,24.3,28.804,Transitioning,2000s
+VNM,Vietnam,2008,73.455,23.8,30.811,Transitioning,2000s
+VNM,Vietnam,2009,73.525,23.4,33.107,Transitioning,2000s
+VNM,Vietnam,2010,73.611,23.1,35.23,Transitioning,2010s
+VNM,Vietnam,2011,73.713,22.8,36.934,Transitioning,2010s
+VNM,Vietnam,2012,73.762,22.5,39.079,Transitioning,2010s
+VNM,Vietnam,2013,73.821,22.3,40.739,Transitioning,2010s
+VNM,Vietnam,2014,73.886,22.0,42.212,Transitioning,2010s
+VNM,Vietnam,2015,73.955,21.6,41.676,Transitioning,2010s
+VNM,Vietnam,2016,73.984,21.3,39.181,Transitioning,2010s
+VNM,Vietnam,2017,74.026,20.9,37.703,Transitioning,2010s
+VNM,Vietnam,2018,74.1,20.5,35.417,Transitioning,2010s
+VNM,Vietnam,2019,74.211,20.0,35.258,Transitioning,2010s
+VNM,Vietnam,2020,75.383,19.5,35.03,Transitioning,2020s
+VNM,Vietnam,2021,74.145,18.9,34.666,Transitioning,2020s
+VNM,Vietnam,2022,74.502,18.4,34.626,Transitioning,2020s
