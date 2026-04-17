@@ -14,6 +14,8 @@ across East Asian economies from 1990 to 2022, and what do these demographic
 trajectories imply for future healthcare services demand?
 
 ## Project Structure
+
+```
 datasci350-final-project/
 ├── README.md
 ├── data/               # Raw and processed datasets
@@ -25,6 +27,7 @@ datasci350-final-project/
 │   ├── 03_descriptive_stats.sql
 │   └── 04_analysis.py
 └── report.qmd          # Quarto report (main document)
+```
 
 ## How to Reproduce
 
