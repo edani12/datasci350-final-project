@@ -253,10 +253,12 @@ sns.heatmap(
     heatmap_data,
     annot=True,
     fmt='.2f',
-    cmap='RdYlGn',
-    linewidths=0.5,
+    cmap='YlGnBu',
+    linewidths=2,
+    cbar=False,
+    square=True,
     ax=ax,
-    cbar_kws={'label': 'Normalised Score (higher = better)'}
+    annot_kws={"size": 10, "weight": "bold"} # Clearer labels
 )
 
 ax.set_title('Demographic Health Scorecard (2022)\nNormalised 0-1 Scale',
@@ -310,9 +312,16 @@ data_2022 = df[df['year'] == 2022].copy()
 
 for _, row in data_2022.iterrows():
     colour = GROUP_COLOURS.get(row['demographic_group'], 'grey')
-    ax.scatter(row['under5_mortality'],
-               row['life_expectancy'],
-               color=colour, s=200, zorder=5)
+    ax.scatter(
+        row['under5_mortality'],
+        row['life_expectancy'],
+        color=colour,
+        s=300,
+        edgecolor='white',
+        linewidth=1.5,
+        alpha=0.85,
+        zorder=5
+    )
     ax.annotate(
         row['country_name'],
         xy=(row['under5_mortality'], row['life_expectancy']),
