@@ -40,10 +40,18 @@ COUNTRY_COLOURS = {
 }
 
 plt.rcParams.update({
-    'figure.dpi':      150,
-    'font.family':     'sans-serif',
-    'axes.spines.top': False,
-    'axes.spines.right': False
+    'figure.dpi':         200,          
+    'font.family':        'sans-serif',
+    'axes.labelweight':   'bold',
+    'axes.titleweight':   'bold',
+    'axes.titlesize':     16,
+    'axes.titlepad':      20,
+    'axes.grid':          True,
+    'grid.alpha':         0.15,         
+    'grid.linestyle':     '--',
+    'legend.frameon':     False,        
+    'axes.spines.top':    False,
+    'axes.spines.right':  False
 })
 
 # ── 2. LOAD DATA FROM SQLITE ─────────────────────────────────────────────────
@@ -68,14 +76,17 @@ fig, ax = plt.subplots(figsize=(12, 7))
 
 for country, group in df.groupby('country_name'):
     colour = COUNTRY_COLOURS.get(country, 'grey')
+    
+    ax.fill_between(group['year'], group['life_expectancy'], alpha=0.03, color=colour)
+    
     ax.plot(
         group['year'],
         group['life_expectancy'],
         label=country,
         color=colour,
-        linewidth=2.5
+        linewidth=3,
+        alpha=0.9
     )
-    # Add country label at end of line
     last = group.sort_values('year').iloc[-1]
     ax.annotate(
         country,
