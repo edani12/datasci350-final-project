@@ -354,7 +354,7 @@ plt.savefig('figures/07_scatter_2022.png', bbox_inches='tight')
 plt.close()
 print('Saved figures/07_scatter_2022.png')
 
-# ── 10. ADDITIONAL ANALYSIS (added by Nikhil) ─────────────────────────────
+# ── 10. ADDITIONAL ANALYSIS ─────────────────────────────
 
 print("\n--- Additional Analysis: Fertility vs Life Expectancy ---")
 
