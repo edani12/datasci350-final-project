@@ -479,6 +479,18 @@ essentially zero preventable child mortality and the world's highest life
 expectancy. The United States is a clear outlier, with higher child mortality 
 than China despite significantly higher per-capita healthcare spending.
 
+### Additional Relationship: Fertility and Life Expectancy
+
+There is also a clear negative relationship between adolescent fertility 
+and life expectancy. Countries with lower adolescent fertility rates tend to 
+have higher life expectancy, reflecting more advanced demographic transitions.
+
+This pattern reinforces the broader finding that improvements in public health, 
+education, and economic development are closely linked to declining fertility and 
+increasing longevity. As countries progress through the demographic transition, 
+healthcare demand shifts away from maternal and child health services toward 
+aging-related care, chronic disease management, and long-term care infrastructure.
+
 ---
 
 ## Results and Discussion

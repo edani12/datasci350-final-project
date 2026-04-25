@@ -354,5 +354,42 @@ plt.savefig('figures/07_scatter_2022.png', bbox_inches='tight')
 plt.close()
 print('Saved figures/07_scatter_2022.png')
 
+# ── 10. ADDITIONAL ANALYSIS (added by Nikhil) ─────────────────────────────
+
+print("\n--- Additional Analysis: Fertility vs Life Expectancy ---")
+
+# Correlation matrix
+corr = df[['life_expectancy', 'under5_mortality', 'adolescent_fertility']].corr()
+print("\nCorrelation Matrix:")
+print(corr)
+
+# Scatter plot: fertility vs life expectancy
+fig, ax = plt.subplots(figsize=(10, 7))
+
+for group, gdata in df.groupby('demographic_group'):
+    colour = GROUP_COLOURS.get(group, 'grey')
+    ax.scatter(
+        gdata['adolescent_fertility'],
+        gdata['life_expectancy'],
+        color=colour,
+        alpha=0.6,
+        s=70,
+        label=group
+    )
+
+ax.set_title('Adolescent Fertility vs Life Expectancy',
+             fontsize=14, fontweight='bold')
+ax.set_xlabel('Adolescent Fertility Rate (per 1,000 women)')
+ax.set_ylabel('Life Expectancy (years)')
+ax.grid(alpha=0.3)
+ax.legend()
+
+plt.tight_layout()
+plt.savefig('figures/08_fertility_vs_life.png')
+plt.close()
+
+print("Saved figures/08_fertility_vs_life.png")
+
 print('\nAll figures saved to figures/ folder.')
 print('Analysis complete.')
+
