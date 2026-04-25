@@ -70,6 +70,12 @@ conn.close()
 print(f'Loaded {len(df)} rows from clean_data view')
 print(f'Countries: {df["country_name"].unique()}')
 
+# --- Basic dataset summary ---
+print("\n--- Dataset Overview ---")
+print(f"Total rows: {len(df)}")
+print(f"Countries: {df['country_name'].nunique()}")
+print(f"Years: {df['year'].min()} - {df['year'].max()}")
+
 # ── 3. FIGURE 1: LIFE EXPECTANCY OVER TIME ───────────────────────────────────
 
 fig, ax = plt.subplots(figsize=(12, 7))
