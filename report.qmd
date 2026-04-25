@@ -7,7 +7,7 @@ author:
     email: "edani@emory.edu"
   - name: "Nikhil Makker"
     affiliation: "Emory University"
-    email: "[teammate2@emory.edu]"
+    email: "nikhil.makker@emory.edu"
   - name: "Connor Lee"
     affiliation: "Emory University"
     email: "[teammate3@emory.edu]"
