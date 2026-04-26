@@ -5,7 +5,7 @@
 ## Authors
 - Eshaan Dani — 2549526
 - Nikhil Makker — 2549325
-- Connor Lee — [Emory ID]
+- Connor Lee — 2550089
 - Ihan Do — 2613107
 - [Teammate 5] — [Emory ID]
 
