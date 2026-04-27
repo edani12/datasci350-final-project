@@ -10,7 +10,7 @@ author:
     email: "nikhil.makker@emory.edu"
   - name: "Connor Lee"
     affiliation: "Emory University"
-    email: "[teammate3@emory.edu]"
+    email: "connor.lee@emory.edu"
   - name: "Ihan Do"
     affiliation: "Emory University"
     email: "ido@emory.edu"
@@ -39,6 +39,7 @@ execute:
   warning: false
   message: false
 bibliography: references.bib
+jupyter: datasci_final
 ---
 
 ```{python}
@@ -433,7 +434,16 @@ plt.tight_layout()
 plt.show()
 ```
 
-South Korea leads all countries in life expectancy gain, adding approximately 12 years between 1990 and 2022, reflecting its rapid economic development and healthcare investment over the period. China and Indonesia follow closely, each gaining around 8–10 years. For under-5 mortality reduction, China and Indonesia show the largest absolute improvements, reducing child deaths by approximately 50–60 per 1,000 live births — unsurprising given both countries started from much higher baselines in 1990, leaving Japan and Singapore little room to improve. Adolescent fertility decline was most dramatic in Indonesia and the United States, both reducing by around 40–50 births per 1,000 teenage women, while South Korea and Japan showed minimal decline as their rates were already near zero in 1990.
+South Korea leads all countries in life expectancy gain, adding approximately 
+12 years between 1990 and 2022, reflecting its rapid economic development and 
+healthcare investment over the period. China and Indonesia follow closely, each 
+gaining around 8–10 years. For under-5 mortality reduction, China and Indonesia 
+show the largest absolute improvements, reducing child deaths by approximately 
+50–60 per 1,000 live births — unsurprising given both countries started from much 
+higher baselines in 1990, leaving Japan and Singapore little room to improve. 
+Adolescent fertility decline was most dramatic in Indonesia and the United States, 
+both reducing by around 40–50 births per 1,000 teenage women, while South Korea 
+and Japan showed minimal decline as their rates were already near zero in 1990.
 
 ### Life Expectancy vs Child Mortality (2022)
 
