@@ -14,9 +14,9 @@ author:
   - name: "Ihan Do"
     affiliation: "Emory University"
     email: "ido@emory.edu"
-  - name: "[Teammate 5]"
+  - name: "Jonathan Luo"
     affiliation: "Emory University"
-    email: "[teammate5@emory.edu]"
+    email: "jonathan.luo@emory.edu"
 date: today
 format:
   html:
@@ -147,7 +147,7 @@ anticipating future demand patterns.
 ### Dataset and Source
 
 This analysis uses data from the World Bank's World Development Indicators 
-(WDI) database, accessed via the `wbgapi` Python package. The WDI is the 
+(WDI) database [@worldbank2024], accessed via the `wbgapi` Python package [@wbgapi]. The WDI is the 
 World Bank's primary collection of development indicators, compiled from 
 officially recognised international sources.
 
