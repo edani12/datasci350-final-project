@@ -506,6 +506,10 @@ aging-related care, chronic disease management, and long-term care infrastructur
 ### Correlation Matrix of Demographic Indicators (1990-2022)
 
 ```{python}
+#| label: fig-heatmap-corr
+#| fig-cap: "Correlation matrix of demographic indicators (1990-2022)"
+#| echo: false
+
 corr_matrix = df[['life_expectancy', 'under5_mortality', 'adolescent_fertility']].corr()
 
 corr_matrix.index = ['Life Expectancy', 'Under-5 Mortality', 'Adolescent Fertility']
