@@ -399,3 +399,28 @@ print("Saved figures/08_fertility_vs_life.png")
 print('\nAll figures saved to figures/ folder.')
 print('Analysis complete.')
 
+# ── 11. FIGURE 9: CORRELATION MATRIX OF DEMOGRAPHIC INDICATORS (1990-2022) ────────────────────────
+corr_matrix = df[['life_expectancy', 'under5_mortality', 'adolescent_fertility']].corr()
+
+corr_matrix.index = ['Life Expectancy', 'Under-5 Mortality', 'Adolescent Fertility']
+corr_matrix.columns = ['Life Expectancy', 'Under-5 Mortality', 'Adolescent Fertility']
+
+fig, ax = plt.subplots(figsize=(8, 6))
+sns.heatmap(corr_matrix, 
+            annot=True, 
+            fmt='.2f',
+            cmap='RdYlGn',
+            vmin=-1, vmax=1,
+            ax=ax,
+            linewidths=0.5)
+
+ax.set_title('Correlation Matrix of Demographic Indicators (1990–2022)',
+             fontsize=13, fontweight='bold', pad=15)
+plt.tight_layout()
+plt.savefig('figures/09_correlation_matrix.png')
+plt.close()
+
+print("Saved figures/09_correlation_matrix.png")
+
+print('\nAll figures saved to figures/ folder.')
+print('Analysis complete.')
