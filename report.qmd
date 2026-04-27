@@ -26,8 +26,8 @@ format:
     number-sections: true
     embed-resources: true
     code-fold: true
-    fig-width: 10
-    fig-height: 6
+    fig-width: 7
+    fig-height: 4
   pdf:
     toc: true
     number-sections: true
@@ -566,6 +566,7 @@ angles = [n / float(N) * 2 * np.pi for n in range(N)]
 angles += angles[:1]
 
 fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+ax.set_position([0.1, 0.1, 0.7, 0.7])
 
 for _, row in radar_data.iterrows():
     values = [row['life_expectancy'], row['under5_mortality'],
