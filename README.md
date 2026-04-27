@@ -7,7 +7,7 @@
 - Nikhil Makker — 2549325
 - Connor Lee — 2550089
 - Ihan Do — 2613107
-- [Teammate 5] — [Emory ID]
+- Jonathan Luo - 2614932
 
 ## Research Question
 How have life expectancy, child mortality, and fertility trends diverged 
