@@ -537,6 +537,67 @@ birth rates tend to have shorter-lived populations. Under-5 mortality and adoles
 fertility are also positively correlated with each other, consistent with both being 
 markers of earlier-stage demographic transitions.
 
+### Country Demographic Profiles (2022)
+
+```{python}
+#| label: fig-radar
+#| fig-cap: "Radar chart of normalised demographic profiles by country (2022)"
+#| echo: false
+
+from matplotlib.patches import FancyArrowPatch
+import matplotlib.patches as mpatches
+
+data_2022 = df[df['year'] == 2022].copy()
+
+radar_data = data_2022[['country_name', 'demographic_group',
+                          'life_expectancy', 'under5_mortality',
+                          'adolescent_fertility']].copy()
+
+for col in ['life_expectancy', 'under5_mortality', 'adolescent_fertility']:
+    radar_data[col] = (radar_data[col] - radar_data[col].min()) / \
+                      (radar_data[col].max() - radar_data[col].min())
+
+radar_data['under5_mortality'] = 1 - radar_data['under5_mortality']
+radar_data['adolescent_fertility'] = 1 - radar_data['adolescent_fertility']
+
+categories = ['Life\nExpectancy', 'Child\nSurvival', 'Low Teen\nFertility']
+N = len(categories)
+angles = [n / float(N) * 2 * np.pi for n in range(N)]
+angles += angles[:1]
+
+fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+
+for _, row in radar_data.iterrows():
+    values = [row['life_expectancy'], row['under5_mortality'],
+              row['adolescent_fertility']]
+    values += values[:1]
+    colour = COUNTRY_COLOURS.get(row['country_name'], 'grey')
+    ax.plot(angles, values, linewidth=2, color=colour,
+            label=row['country_name'])
+    ax.fill(angles, values, alpha=0.05, color=colour)
+
+ax.set_xticks(angles[:-1])
+ax.set_xticklabels(categories, fontsize=11)
+ax.set_ylim(0, 1)
+ax.set_yticks([0.25, 0.5, 0.75, 1.0])
+ax.set_yticklabels(['0.25', '0.50', '0.75', '1.00'], fontsize=7)
+ax.set_title('Country Demographic Profiles (2022)\nNormalised 0-1 Scale',
+             fontsize=14, fontweight='bold', pad=20)
+ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1), fontsize=9)
+
+plt.tight_layout()
+plt.show()
+```
+
+The radar chart provides a holistic view of each country's 2022 demographic 
+profile across all three normalised indicators simultaneously. Japan and 
+Singapore occupy the outer edge of the chart across all three dimensions, 
+confirming their status as the most demographically advanced economies in 
+the sample. Indonesia sits closest to the centre, reflecting its earlier 
+stage of transition. The United States shows an uneven profile — strong on 
+low teen fertility but notably weaker on life expectancy and child survival 
+relative to its East Asian peers.
+
 ---
 
 ## Results and Discussion
