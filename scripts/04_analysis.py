@@ -424,3 +424,52 @@ print("Saved figures/09_correlation_matrix.png")
 
 print('\nAll figures saved to figures/ folder.')
 print('Analysis complete.')
+
+# ── 12. FIGURE 10: RADAR CHART - COUNTRY PROFILES 2022 ──────────────────────
+
+from matplotlib.patches import FancyArrowPatch
+import matplotlib.patches as mpatches
+
+data_2022 = df[df['year'] == 2022].copy()
+
+# Normalise indicators (higher = better)
+radar_data = data_2022[['country_name', 'demographic_group',
+                          'life_expectancy', 'under5_mortality',
+                          'adolescent_fertility']].copy()
+
+for col in ['life_expectancy', 'under5_mortality', 'adolescent_fertility']:
+    radar_data[col] = (radar_data[col] - radar_data[col].min()) / \
+                      (radar_data[col].max() - radar_data[col].min())
+
+radar_data['under5_mortality'] = 1 - radar_data['under5_mortality']
+radar_data['adolescent_fertility'] = 1 - radar_data['adolescent_fertility']
+
+categories = ['Life\nExpectancy', 'Child\nSurvival', 'Low Teen\nFertility']
+N = len(categories)
+angles = [n / float(N) * 2 * np.pi for n in range(N)]
+angles += angles[:1]
+
+fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+
+for _, row in radar_data.iterrows():
+    values = [row['life_expectancy'], row['under5_mortality'],
+              row['adolescent_fertility']]
+    values += values[:1]
+    colour = COUNTRY_COLOURS.get(row['country_name'], 'grey')
+    ax.plot(angles, values, linewidth=2, color=colour,
+            label=row['country_name'])
+    ax.fill(angles, values, alpha=0.05, color=colour)
+
+ax.set_xticks(angles[:-1])
+ax.set_xticklabels(categories, fontsize=11)
+ax.set_ylim(0, 1)
+ax.set_yticks([0.25, 0.5, 0.75, 1.0])
+ax.set_yticklabels(['0.25', '0.50', '0.75', '1.00'], fontsize=7)
+ax.set_title('Country Demographic Profiles (2022)\nNormalised 0-1 Scale',
+             fontsize=14, fontweight='bold', pad=20)
+ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.1), fontsize=9)
+
+plt.tight_layout()
+plt.savefig('figures/10_radar_profiles.png', bbox_inches='tight')
+plt.close()
+print('Saved figures/10_radar_profiles.png')
